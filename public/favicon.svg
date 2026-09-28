@@ -1,0 +1,26 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 128 128" width="100%" height="100%">
+  <defs>
+    <linearGradient id="grad" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#3B82F6" />
+      <stop offset="50%" stop-color="#8B5CF6" />
+      <stop offset="100%" stop-color="#06B6D4" />
+    </linearGradient>
+    <radialGradient id="glow" cx="50%" cy="50%" r="50%">
+      <stop offset="0%" stop-color="#3B82F6" stop-opacity="0.3"/>
+      <stop offset="100%" stop-color="#0F172A" stop-opacity="0"/>
+    </radialGradient>
+  </defs>
+  <rect width="128" height="128" rx="28" fill="#090D16" />
+  <rect width="128" height="128" rx="28" fill="url(#glow)" />
+  <rect x="2" y="2" width="124" height="124" rx="26" fill="none" stroke="url(#grad)" stroke-width="2.5" stroke-opacity="0.6" />
+  
+  <!-- Code brackets -->
+  <path d="M 28 64 L 38 52 M 28 64 L 38 76" fill="none" stroke="#60A5FA" stroke-width="3" stroke-linecap="round" stroke-linejoin="round" />
+  <path d="M 100 64 L 90 52 M 100 64 L 90 76" fill="none" stroke="#60A5FA" stroke-width="3" stroke-linecap="round" stroke-linejoin="round" />
+  
+  <!-- Letters OM -->
+  <text x="64" y="74" font-family="system-ui, -apple-system, sans-serif" font-size="34" font-weight="900" fill="url(#grad)" text-anchor="middle" letter-spacing="-1">OM</text>
+  
+  <!-- Cyan dot -->
+  <circle cx="96" cy="38" r="4" fill="#06B6D4" />
+</svg>
